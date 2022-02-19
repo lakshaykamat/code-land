@@ -32,7 +32,7 @@
         <li tabindex="1" class="sm:text-base mx-2 cursor-pointer hover:text-gray-300 text-sm w-fit focus:bg-purple-800 p-1">Home</li>
         <li tabindex="2" class="sm:text-base mx-2 cursor-pointer hover:text-gray-300 text-sm focus:bg-purple-800 p-1">About</li>
         <li tabindex="3" class=" sm:text-base mx-2 cursor-pointer hover:text-gray-300 text-sm w-fit focus:bg-purple-800 p-1">Follow Us</li>
-        <li tabindex="4" class=" sm:text-base mx-2 cursor-pointer hover:text-gray-300 text-sm focus:bg-purple-800 p-1">About Us</li>
+        <li tabindex="4" class=" sm:text-base mx-2 cursor-pointer hover:text-gray-300 text-sm focus:bg-purple-800 p-1"> <a href="/Login/index.html">Login</a></li>
       </ul>
     </div>
 
@@ -43,9 +43,9 @@
   <section class="flex flex-col sm:items-start justify-center items-center xl:h-[35.5rem] h-96 w-full ">
     <!-------- Html Logo------- -->
     <div class="flex justify-center items-center h-96 w-full absolute">
-      <img src="html-logo.png"
+      <img src="Images/html-logo.png"
         class=" xl:h-60 xl:w-60  lg:w-[13rem] lg:h-[13rem] md:w-[12rem] md:h-[12rem] w-40 h-40 mt-3 mr-3 ml-5 mb-5 sm:right-5 sm:opacity-90 opacity-70 absolute -z-10 sm:blur-0 blur-sm"
-        alt="">
+        alt="html">
     </div>
       <!-------- Html Logo✌------- -->
 
@@ -70,7 +70,7 @@
     <h2 class=" m-auto mt-5 sm:text-3xl text-2xl font-bold  text-center w-fit">Introduction to HTML</h2>
 
     <!-- ----------LIST ITEM ------------>
-    <div class="flex justify-center w-fit m-auto">
+    <div class="flex justify-center w-fit">
       <ul class="list-disc">
         <li class=" ml-10 mt-5 lg:text-lg">HTML is the standard markup language for creating Web
           pages.</li>
@@ -108,24 +108,27 @@
   <h2 class="text-2xl mt-5 font-bold h-fit text-center">Example Explained</h2>
 
 
-  <div class=" w-fit h-fit  m-auto">
-    <ul class="list-disc  w-fit ">
-      <li class=" mt-5 ml-10 sm:text-lg">The <span class="inline text-[#667597]"> <span style="font-family: cascadia code;">&lt;!DOCTYPE html&gt;</span></span>
+  <div class="flex w-full h-fit  items-center justify-center">
+    <ul class="list-disc lg:w-8/12">
+      <li class=" mt-5 ml-10 lg:text-lg">The <span class="inline text-[#667597]">&lt;!DOCTYPE html&gt;</span>
         declaration defines that this document is an HTML5 document</li>
-      <li class=" ml-10 sm:text-lg">The <span class="inline text-[#A77330]"> <span style="font-family: cascadia code;">&lt;html&gt;</span></span> element is the
+      <li class=" ml-10 lg:text-lg">The <span class="inline text-[#A77330]">&lt;html&gt;</span> element is the
         root
         element of an HTML page</li>
-      <li class=" ml-10 sm:text-lg">The <span class="inline text-[#A77330]"> <span style="font-family: cascadia code;">&lt;head&gt;</span></span> element contains
+      <li class=" ml-10 lg:text-lg">The <span class="inline text-[#A77330]">&lt;head&gt;</span> element contains
         meta
         information about the HTML page</li>
-      <li class=" ml-10 sm:text-lg">The <span class="inline text-[#A77330]"> <span style="font-family: cascadia code;">&lt;title&gt;</span></span> element specifies
-        a title for the HTML page</li>
-      <li class=" ml-10 sm:text-lg">The <span class="inline text-[#A77330]"> <span style="font-family: cascadia code;">&lt;body&gt;</span></span> element defines
-        the document's body, and is a container for all the visible contents</li>
-      <li class=" ml-10 sm:text-lg">The <span class="inline text-[#A77330]"> <span style="font-family: cascadia code;">&lt;h1&gt;</span></span> element defines a
+      <li class=" ml-10 lg:text-lg">The <span class="inline text-[#A77330]">&lt;title&gt;</span> element specifies
+        a
+        title for the HTML page (which is shown in the browser's title bar or in the page's tab)</li>
+      <li class=" ml-10 lg:text-lg">The <span class="inline text-[#A77330]">&lt;body&gt;</span> element defines
+        the
+        document's body, and is a container for all the visible contents, such as headings, paragraphs, images,
+        hyperlinks, tables, lists, etc.</li>
+      <li class=" ml-10 lg:text-lg">The <span class="inline text-[#A77330]">&lt;h1&gt;</span> element defines a
         large
         heading</li>
-      <li class=" ml-10 sm:text-lg">The <span class="inline text-[#A77330]"> <span style="font-family: cascadia code;">&lt;p&gt;</span></span> element defines a
+      <li class=" ml-10 lg:text-lg">The <span class="inline text-[#A77330]">&lt;p&gt;</span> element defines a
         paragraph</li>
     </ul>
   </div>
@@ -153,7 +156,7 @@
 
     <p class="mt-3 w-fit  md:text-lg md:ml-4 md:mr-4 ml-4 mr-2">The HTML element is everything from the start tag to
       the end tag:</p>
-    <p class="mt-3 w-fit md:text-lg   px-5 py-5 bg-[#FFFFCC]"><strong>Note:</strong> Some HTML
+    <p class="mt-3 w-fit md:text-lg md:ml-4 md:mr-4  px-5 py-5 bg-[#FFFFCC]"><strong>Note:</strong> Some HTML
       elements have no content (like the <br> element). These elements are called empty elements. Empty elements
       do not have an end tag!</p>
   </div>
@@ -166,7 +169,7 @@
       correctly.</p>
     <p class="mt-3 w-fit  md:text-lg md:ml-4 md:mr-4 ml-4 mr-2">A browser does not display the HTML tags, but uses
       them to determine how to display the document:</p>
-    <img src="img_chrome.png" class=" sm:w-fit sm:h-fit w-[26rem] h-auto m-auto mt-5 mb-5" alt="">
+    <img src="Images/img_chrome.png" class=" sm:w-fit sm:h-fit w-[26rem] h-auto m-auto mt-5 mb-5" alt="">
 
   </div>
   <!--------------------------------------------------- HTML History---------------------------------------- -->
